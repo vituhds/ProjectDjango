@@ -1170,6 +1170,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 }
 .layout-full-width.header-fw #Action_bar .container, .layout-full-width.header-fw #Top_bar .container {
 	width: 100%;
+	position:absolute;
 }
 #Top_bar .top_bar_left {
 	position: relative;
