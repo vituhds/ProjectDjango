@@ -31,6 +31,36 @@ body {
 	min-width: 1240px;
 	padding: 25px 0;
 }
+#slider-1-slide-1-layer-0 {
+    z-index: 5 !important;
+    font-family: Anton !important;
+    visibility: visible !important;
+    text-align: center !important;
+    line-height: 90px !important;
+    letter-spacing: 0px !important;
+    font-weight: 400 !important;
+    font-size: 75px !important;
+    border-color: rgb(48, 48, 48) !important;
+    border-style: none !important;
+    margin: 0px !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none !important;
+    white-space: normal !important;
+    width: 800px !important;
+    height: auto !important;
+    min-height: 0px !important;
+    min-width: 0px !important;
+    max-height: none !important;
+    max-width: none !important;
+    opacity: 1 !important;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1) !important;
+    transform-origin: 50% 50% 0px !important;
+    position: relative !important;
+    top: 50% !important;
+    right: 10% !important;
+}
 #Wrapper {
 	width: 1240px;
 	margin: 0px auto;
