@@ -31,7 +31,7 @@ body {
 	min-width: 1240px;
 	padding: 25px 0;
 }
-#slider-1-slide-1-layer-0 {
+#rs-layerTitulo {
     z-index: 5 !important;
     font-family: Anton !important;
     visibility: visible !important;
@@ -60,6 +60,9 @@ body {
     position: relative !important;
     top: 50% !important;
     right: 10% !important;
+    background-color: black !important;
+    opacity: 0.5 !important;
+    border-radius: 1rem !important;
 }
 #Wrapper {
 	width: 1240px;
