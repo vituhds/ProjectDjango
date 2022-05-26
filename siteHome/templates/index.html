@@ -39,7 +39,8 @@
 </head>
 
 <body class="home page-template-default page template-slider  color-custom style-default button-flat layout-full-width one-page no-content-padding header-transparent header-fw minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-center menu-link-color menuo-right footer-copy-center mobile-tb-hide mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-sticky be-reg-2176 elementor-default elementor-kit-14 elementor-page elementor-page-7">
-    <div id="Wrapper">
+    {% for dados in titulo %}
+<div id="Wrapper">
         <div id="Header_wrapper">
             <header id="Header">
 
@@ -86,7 +87,7 @@
                 </div>
 <!--ATAT-->
 
-                {% for dados in titulo %}
+
                 <div class="mfn-main-slider mfn-rev-slider">
                     <p class="rs-p-wp-fix"></p>
                     <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
@@ -115,7 +116,7 @@
                         </rs-module>
                     </rs-module-wrap>
                 </div>
-                {% endfor %}
+
 
 
 
@@ -1250,6 +1251,7 @@
         <div class="menu_wrapper"></div>
     </div>
     <div id="body_overlay"></div>
+    {% endfor %}
 
     <!-- JS -->
     <script src="{% static 'js/js/jquery-2.1.4.min.js' %}"></script>

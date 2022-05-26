@@ -1,5 +1,6 @@
 from django.db import models
 
+
 #   classe padrão todos  os models vão ter esta configurações.
 
 class Base(models.Model):
