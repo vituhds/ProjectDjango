@@ -1,8 +1,6 @@
 from django.db import models
 
-
 #   classe padrão todos  os models vão ter esta configurações.
-
 
 class Base(models.Model):
     Criados = models.DateField('Criação', auto_now_add=True)
