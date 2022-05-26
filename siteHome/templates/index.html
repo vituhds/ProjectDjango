@@ -178,9 +178,11 @@
                                                                                             <div class="elementor-widget-wrap">
                                                                                                 <div class="elementor-element elementor-element-cdf0e7b elementor-widget elementor-widget-text-editor" data-id="cdf0e7b" data-element_type="widget" data-widget_type="text-editor.default">
                                                                                                     <div class="elementor-widget-container">
+                                                                                                        {% for dados in tituloTreinamento %}
                                                                                                         <div class="elementor-text-editor elementor-clearfix">
-                                                                                                            <h3><span style="color: #f7f7f7;">4-WEEK BEGINNER&#8217;S WORKOUT PROGRAM</span></h3>
+                                                                                                            <h3><span style="color: #f7f7f7;">{{ dados.treinamento }}</span></h3>
                                                                                                         </div>
+                                                                                                        {% endfor %}
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <div class="elementor-element elementor-element-da53ca2 elementor-widget elementor-widget-spacer" data-id="da53ca2" data-element_type="widget" data-widget_type="spacer.default">
