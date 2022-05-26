@@ -31,7 +31,7 @@ body {
 	min-width: 1240px;
 	padding: 25px 0;
 }
-/*#rs-layerTitulo {
+#rs-layerTitulo {
     z-index: 5 !important;
     font-family: Anton !important;
     visibility: visible !important;
@@ -48,7 +48,7 @@ body {
     color: rgb(255, 255, 255) !important;
     text-decoration: none !important;
     white-space: normal !important;
-    width: 800px !important;
+    width: 100px !important;
     height: auto !important;
     min-height: 0px !important;
     min-width: 0px !important;
@@ -63,7 +63,7 @@ body {
     background-color: black !important;
     opacity: 0.5 !important;
     border-radius: 1rem !important;
-}*/
+}
 #Wrapper {
 	width: 1240px;
 	margin: 0px auto;

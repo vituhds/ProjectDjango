@@ -84,9 +84,7 @@
                         </div>
                     </div>
                 </div>
-
-
-<!--                {% for dados in Titulo_Header %}-->
+                {% for dados in titulo %}
                 <div class="mfn-main-slider mfn-rev-slider">
                     <p class="rs-p-wp-fix"></p>
                     <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
@@ -94,13 +92,13 @@
                             <rs-slides>
                                 <rs-slide data-key="rs-1" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
                                     <img src="{% static 'content/content/personaltrainer2/images/personaltrainer2-slider-bg.jpg' %}" class="rev-slidebg" data-no-retina>
-                                    <rs-layer id="slider-1-slide-1-layer-0"  data-type="text" data-rsp_ch="on" data-xy="xo:690px,690px,236px,236px;yo:204px,204px,407px,407px;" data-text="w:normal;s:80,80,70,70;l:90,90,80,80;a:right;" data-dim="w:500px;" data-frame_0="x:-50,-50,-31,-31;"
+                                    <rs-layer id="rs-layerTitulo"  data-type="text" data-rsp_ch="on" data-xy="xo:690px,690px,236px,236px;yo:204px,204px,407px,407px;" data-text="w:normal;s:80,80,70,70;l:90,90,80,80;a:right;" data-dim="w:500px;" data-frame_0="x:-50,-50,-31,-31;"
                                         data-frame_1="st:100;sp:1000;sR:100;" data-frame_999="o:0;st:w;sR:7900;" style="z-index:5;font-family:Anton;">
-                                       {{dados.Titulo_Header01}}
+                                        {{dados.titulo}}
                                     </rs-layer>
                                     <rs-layer id="slider-1-slide-1-layer-1" data-type="text" data-rsp_ch="on" data-xy="xo:816px,816px,511px,511px;yo:519px,519px,325px,325px;" data-text="w:normal;s:17,17,10,10;l:27,27,16,16;a:right;" data-vbility="t,t,f,t" data-frame_0="x:-50,-50,-31,-31;"
                                         data-frame_1="st:150;sp:1000;sR:150;" data-frame_999="o:0;st:w;sR:7850;" style="z-index:6;font-family:Arial, Helvetica, sans-serif;">
-                                        {{dados.SubTitulo_Header01}}
+                                        {{dados.subTitulo}}
                                     </rs-layer><a id="slider-1-slide-1-layer-2" class="rs-layer scroll rev-btn" href="#about" target="_self" rel="nofollow" data-type="button" data-rsp_ch="on" data-xy="xo:1024px,1024px,568px,568px;yo:600px,600px,677px,677px;"
                                         data-text="w:normal;l:50;" data-dim="minh:0px,0px,none,0px;" data-padding="r:40;l:40;" data-border="bor:2px,2px,2px,2px;" data-frame_0="x:-50,-50,-31,-31;" data-frame_1="st:200;sp:1000;sR:200;" data-frame_999="o:0;st:w;sR:7800;"
                                         data-frame_hover="bgc:#e84f13;bor:2px,2px,2px,2px;bri:120%;" style="z-index:7;background-color:#ff6326;font-family:Anton;">SOBRE</a>
@@ -113,11 +111,12 @@
                                 </rs-slide>
                             </rs-slides>
                         </rs-module>
-
                     </rs-module-wrap>
                 </div>
+<<<<<<< HEAD
+                {% endfor %}
+=======
 <!--                {% endfor %}-->
-
 
 
 
@@ -151,6 +150,7 @@
 
 <!--                    </rs-module-wrap>-->
 <!--                </div>-->
+>>>>>>> ac324164cc5dd53b7ed66fc725633768770f0f2f
             </header>
         </div>
         <div id="Content">
