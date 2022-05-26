@@ -12,9 +12,9 @@ class Base(models.Model):
 
 
 class PaginaInicial(Base):
-    titulo = models.CharField('titulo', max_length=100, blank=True)
-    subTitulo = models.CharField('subTitulo', max_length=100, blank=True)
-    treinamento = models.Charfield('tituloTreinamento', max_lenght=100, blank=True)
+    titulo = models.CharField('Título', max_length=100, blank=True)
+    subTitulo = models.CharField('Sub-Titulo', max_length=100, blank=True)
+    treinamento = models.CharField('tituloTreinamento', max_lenght=100, blank=True)
 
     class Meta:
         verbose_name = 'PaginaInicial'
