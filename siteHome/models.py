@@ -15,7 +15,7 @@ class Base(models.Model):
 class PaginaInicial(Base):
     titulo = models.CharField('Título', max_length=100, blank=True)
     subTitulo = models.CharField('Sub-Titulo', max_length=100, blank=True)
-    treinamento = models.CharField('titulo Treinamento', max_lenght=100, blank=True)
+    treinamento = models.CharField('titulo Treinamento', max_length=100, blank=True)
 
     class Meta:
         verbose_name = 'PaginaInicial'
